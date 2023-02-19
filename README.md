@@ -1,7 +1,7 @@
 # Makefile Template (UWP)
 If you are new to compiling using makefile's and you want to compile something to support (UWP), 
 
-then this template will help you to understand how the progress is working
+then this simple template will help you to understand how the progress is working
 
 It's organized and easy to change.
 
@@ -32,6 +32,7 @@ In `Makefile` you will find:
 - `SOURCES_CXX` for `.cpp` files
 
 **Example:**
+
 ```
 SOURCES_C += \
             file1.c \

@@ -21,7 +21,7 @@ In `Makefile` you will find:
 - `VsInstallCommunity` VS installation dir
 - `WindowsSdkDir` SDK dir
 - `WindowsSDKVersion` Target build number
-- `INCFLAGS` include folders `-I"$(RootDir)/foldername"` or `-I"$fullpath"` [always use `/`]
+- `INCFLAGS` include folders `-I"$(RootDir)/foldername"` or `-I"fullpath"` [always use `/`]
 - `LIBS` libraries to include [for linker]
 - `MSVCCompileFlags` custom defines `-DVARIABLENAME` [`-D` is fixed at the start, means `define`]
 

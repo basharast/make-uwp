@@ -44,7 +44,7 @@ SOURCES_CXX += \
 	    file2.cpp \
 	    file3.cpp
 
-``
+```
 
 
 ## Build

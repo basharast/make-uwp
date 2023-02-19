@@ -43,13 +43,12 @@ SOURCES_CXX += \
             file1.cpp \
 	    file2.cpp \
 	    file3.cpp
-
 ```
 
 
 ## Build
 
-Form msys2:
+From msys2:
 - `cd "fullpath_to_library"`
 - `make -f Makefile`
 

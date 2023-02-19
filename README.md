@@ -16,7 +16,7 @@ It's organized and easy to change.
 In `Makefile` you will find:
 
 - `TargetArch` your target arch
-- `TARGET_NAME` the name of `dll` or `lib`
+- `TARGET_NAME` the name of `dll` or `lib` (without extension)
 - `STATIC_LINKING` if you want the output as `lib`
 - `VsInstallCommunity` VS installation dir
 - `WindowsSdkDir` SDK dir

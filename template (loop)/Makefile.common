@@ -1,0 +1,12 @@
+#Below (C) is sample change it as you need	
+SOURCES_C +=  *.c       \
+              src/*.c   \
+              src/*/*.c \
+              src/*/*/*.c
+		
+
+#Below (C++) is sample change it as you need	
+SOURCES_CXX   +=  *.cpp       \
+                  src/*.cpp   \
+                  src/*/*.cpp \
+                  src/*/*/*.cpp

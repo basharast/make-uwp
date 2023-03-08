@@ -5,6 +5,9 @@ then this simple template will help you to understand how the progress is workin
 
 It's organized and easy to change.
 
+- Normal template (manually add `.c`,`.cpp` files)
+- Loop template (will auto compile every `.c`,`.cpp` file)
+
 
 # Tools
 
@@ -31,18 +34,32 @@ In `Makefile` you will find:
 - `SOURCES_C` for `.c` files
 - `SOURCES_CXX` for `.cpp` files
 
-**Example:**
+**Example (Normal):**
 
 ```
 SOURCES_C += \
             file1.c \
-	    file2.c \
-	    file3.c
+	        file2.c \
+	        file3.c
 			
 SOURCES_CXX += \
             file1.cpp \
-	    file2.cpp \
-	    file3.cpp
+	        file2.cpp \
+	        file3.cpp
+```
+
+**Example (Loop):**
+
+```
+SOURCES_C +=  *.c       \
+              src/*.c   \
+              src/*/*.c \
+              src/*/*/*.c
+			
+SOURCES_CXX   +=  *.cpp       \
+                  src/*.cpp   \
+                  src/*/*.cpp \
+                  src/*/*/*.cpp
 ```
 
 

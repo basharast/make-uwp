@@ -38,14 +38,14 @@ In `Makefile` you will find:
 
 ```
 SOURCES_C += \
-            file1.c \
-	        file2.c \
-	        file3.c
+               file1.c \
+	       file2.c \
+	       file3.c
 			
 SOURCES_CXX += \
-            file1.cpp \
-	        file2.cpp \
-	        file3.cpp
+               file1.cpp \
+	       file2.cpp \
+	       file3.cpp
 ```
 
 **Example (Loop):**
